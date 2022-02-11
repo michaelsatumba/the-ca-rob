@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
 	return (
-		<div classNameName="h-screen bg-black">
+		<div className="h-screen bg-black">
 			<Head>
 				<title>The CA Rob</title>
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
