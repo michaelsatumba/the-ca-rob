@@ -5,8 +5,8 @@ import Link from 'next/link';
 function Main() {
 	return (
 		<div>
-			<div className="h-screen bg-black">
-				<div className="container relative text-center text-white">
+			<div className="min-h-screen bg-black">
+				<div className="relative text-center text-white">
 					<Image
 						src="/main.png"
 						objectFit="contain"
@@ -43,7 +43,7 @@ function Main() {
 						</svg>
 					</div>
 					<Link href="https://www.youtube.com/watch?v=dKCnHUgfGRw">
-						<div className="absolute top-[54px] left-8 cursor-pointer text-lg text-black hover:text-red-500 ">
+						<div className="text-md absolute top-[54px] left-8 cursor-pointer text-black hover:text-red-500 ">
 							Watch the Official Music Video
 							<span className="text-red-500">(Love Over Fear)</span>
 						</div>
@@ -146,13 +146,13 @@ function Main() {
 							Management
 						</p>
 					</Link>
-					<Link href="https://www.instagram.com/the_ca_rob/">
-						<p className="cursor-pointer py-3 text-white hover:text-red-500">
-							Booking
-						</p>
-					</Link>
-					<div className="absolute bottom-14 right-8 text-4xl text-white">
-						🚀
+					<div className="flex justify-between">
+						<Link href="https://www.instagram.com/the_ca_rob/">
+							<p className="cursor-pointer py-3 text-white hover:text-red-500">
+								Booking
+							</p>
+						</Link>
+						<div className="text-4xl">🚀</div>
 					</div>
 				</div>
 			</div>
